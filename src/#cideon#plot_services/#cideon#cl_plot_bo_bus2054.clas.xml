@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/CIDEON/CL_PLOT_BO_BUS2054</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Business Objekt &quot;Projektstrukturplan&quot;</DESCRIPT>
+    <STATE>1</STATE>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DESCRIPTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kurzbeschreibung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ICON</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ikone / eingebaute Bitmap / benutzerdef. Bitmap</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>OBJNR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Objektnummer (Key)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>POSID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Projektstrukturplanelement (PSP-Element)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IO_ADDITIONAL_DATA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zusatzdaten</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

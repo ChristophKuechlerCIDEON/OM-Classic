@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/CIDEON/MAT_BOM_PRIN</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Materialstücklistendruck</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/MAT_BOM_PRIN</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Fehler beim Generieren der Spool-ID</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/MAT_BOM_PRIN</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Übergabeparameter unvollständig oder fehlerhaft.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/MAT_BOM_PRIN</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Fehler beim Selektieren der Kopfmaterialdaten &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/MAT_BOM_PRIN</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Fehler beim Selektieren der Positionsmaterialdaten</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/MAT_BOM_PRIN</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Fehler beim Selektieren der Stücklistendruckvariante</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/MAT_BOM_PRIN</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Fehler in der BADI-Erweiterung</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/MAT_BOM_PRIN</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Bitte einen gültigen Eintrag auswählen !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/MAT_BOM_PRIN</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Bitte nur einen gültigen Eintrag auswählen !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/MAT_BOM_PRIN</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Für Material &amp;1 ist Mengeneinheit &amp;2 vorgesehen!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/MAT_BOM_PRIN</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Material &amp;1 existiert nicht!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/MAT_BOM_PRIN</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Dokument &amp;1 existiert nicht!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/MAT_BOM_PRIN</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Bitte Dokumentnummer eintragen!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/MAT_BOM_PRIN</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Bitte Dokumentart eintragen!</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/CIDEON/MAT_BOM_PRIN</ARBGB>
+     <STEXT>Bill of Material print</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/CIDEON/MAT_BOM_PRIN</ARBGB>
+     <STEXT>Bill of Material print</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/CIDEON/MAT_BOM_PRIN</ARBGB>
+     <STEXT>Bill of Material print</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Error while generating Spool-ID</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Transferparameter incomplete or incorrect</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Error while Selecting Headmaterialdata &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Error while Selecting Componentmaterial-Data</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Error while Selecting variation of Bill of Material-Print</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Error in BADI-Enhancement</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Please select one valid entry !</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Please, select only one valid entry!</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>For material &amp;1 base of quantity &amp;2 is intended !</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Material &amp;1 doesn&apos;t exist!</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Dokument &amp;1 doesn&apos;t exist!</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Please fill in Document Number!</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Please fill in Document type!</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Error while generating Spool-ID</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Transferparameter incomplete or incorrect</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Error while Selecting Headmaterialdata &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Error while Selecting Componentmaterial-Data</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Error while Selecting variation of Bill of Material-Print</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Error in BADI-Enhancement</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Please select one valid entry !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Please, select only one valid entry!</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>For material &amp;1 base of quantity &amp;2 is intended !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Material &amp;1 doesn&apos;t exist!</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Dokument &amp;1 doesn&apos;t exist!</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Please fill in Document Number!</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Please fill in Document type!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Error while generating Spool-ID</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Transferparameter incomplete or incorrect</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Error while Selecting Headmaterialdata &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Error while Selecting Componentmaterial-Data</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Error while Selecting variation of Bill of Material-Print</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Error in BADI-Enhancement</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Please select one valid entry !</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Please, select only one valid entry!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>For material &amp;1 base of quantity &amp;2 is intended !</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Material &amp;1 doesn&apos;t exist!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Dokument &amp;1 doesn&apos;t exist!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Please fill in Document Number!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Please fill in Document type!</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

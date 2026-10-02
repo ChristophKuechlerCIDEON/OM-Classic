@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/CIDEON/DRUCK_BASIS</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Messageklasse für Druck-Basis Meldungen</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/DRUCK_BASIS</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Keine erlaubten Zeichen &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/DRUCK_BASIS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Fehler im Seitenintervall! Startwert &gt; Endwert &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/DRUCK_BASIS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Dokument ist nicht zum Plotten vorgesehen! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/DRUCK_BASIS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Dokument ist nicht zum Plotten vorgesehen! &amp; &amp; &amp; &amp; Eintrag wird gelöscht!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/DRUCK_BASIS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Dokument ist nicht zum Plotten vorgesehen! &amp; &amp; &amp; &amp; Wird nicht übernommen!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/DRUCK_BASIS</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Keine erlaubten DIS zur Übernahme in Plotliste vorhanden. &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/DRUCK_BASIS</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Keine Plotberechtigung für  &amp; &amp; &amp; &amp; ! Wird nicht übernommen!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/DRUCK_BASIS</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Einige Dokumente wurden nicht übernommen. Siehe Appl. LOG &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/DRUCK_BASIS</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Angabe eines Empfängers notwendig &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/DRUCK_BASIS</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Angabe eines Verteilers notwendig &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/DRUCK_BASIS</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Angabe eines erlaubten Verteilers notwendig &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/DRUCK_BASIS</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>angegebenes Intervall nicht enthalten! Drucke alles. &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

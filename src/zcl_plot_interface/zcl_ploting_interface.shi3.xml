@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SHI3" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TREE_HEAD>
+    <ID>ZCL_PLOTING_INTERFACE</ID>
+    <TYPE>BMENU</TYPE>
+    <NODE_ID>ZCL_PLOTING_INTERFACE_T</NODE_ID>
+    <MASTERLANG>D</MASTERLANG>
+    <BUFFERMODE>1</BUFFERMODE>
+    <BUFFERVAR>NRT</BUFFERVAR>
+   </TREE_HEAD>
+   <TREE_TITLES>
+    <TTREET>
+     <SPRAS>D</SPRAS>
+     <ID>ZCL_PLOTING_INTERFACE</ID>
+     <TEXT>Bereichsmenü für CIDEON SAP-Plotting-Solution</TEXT>
+     <TEXT_CAP>BEREICHSMENÜ FÜR CIDEON SAP-PLOTTING-SOLUTION</TEXT_CAP>
+    </TTREET>
+    <TTREET>
+     <SPRAS>E</SPRAS>
+     <ID>ZCL_PLOTING_INTERFACE</ID>
+     <TEXT>menue AutoORG Plotting Solution for SAP</TEXT>
+     <TEXT_CAP>MENUE AUTOORG PLOTTING SOLUTION FOR SAP</TEXT_CAP>
+    </TTREET>
+    <TTREET>
+     <SPRAS>F</SPRAS>
+     <ID>ZCL_PLOTING_INTERFACE</ID>
+     <TEXT>menue AutoORG Plotting Solution for SAP</TEXT>
+     <TEXT_CAP>MENUE AUTOORG PLOTTING SOLUTION FOR SAP</TEXT_CAP>
+    </TTREET>
+    <TTREET>
+     <SPRAS>L</SPRAS>
+     <ID>ZCL_PLOTING_INTERFACE</ID>
+     <TEXT>menue AutoORG Plotting Solution for SAP</TEXT>
+     <TEXT_CAP>MENUE AUTOORG PLOTTING SOLUTION FOR SAP</TEXT_CAP>
+    </TTREET>
+   </TREE_TITLES>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Nachrichten für Basisfunktionalität im PLotten</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Änderung ist erfolgt. &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Materialnummer &amp; nicht vorhanden !!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Listenbreit &amp; &lt; Minimum, Minimum 81 wird übernommen !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Listenbreit &amp; &gt; Maximum, Maximum 132 wird übernommen !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Wert &amp; geändert nach &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Feld &amp; ist initial &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Bitte Verteiler / Ausgabegeräte angegeben &amp; &amp; &amp; &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Eingaben müssen mit ENTER bestätigt werden!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Bitte nehmen Sie Eintragungen für die 2D Ableitungen vor.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>kein Dokument für diese Auswahl gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Problem beim Schreiben der Transferdatei. &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Delta Update! - einige Dokumente wurden nicht übernommen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Delta Update! - markierte Dokumente wurden schon an Lieferanten gesendet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>keine Materialstückliste vorhanden! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Datei erfolgreich gespeichert &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Fehler beim Speichern der Datei &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>FB &amp; nicht oder nicht aktiv vorhanden. &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Probleme beim Lesen Klassendaten Objk:&amp; Klasse:&amp; Merkmal:&amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>alle Felder müssen einen Wert haben! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>Trennzeichen ist initial! &amp; &amp; &amp; &amp; Bitte pflegen!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_BASIS</ARBGB>
+     <MSGNR>150</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

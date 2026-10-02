@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCL_PLOT_FERTIGUNG</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Messageklasse für Fertigungsauftragsplotten</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLOT_FERTIGUNG</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Konnte Tabelle &amp; mit Schlüssel &amp; &amp; &amp; nicht lesen!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLOT_FERTIGUNG</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Bitte Eingabe im Feld &quot;Anwendung&quot; vornehmen. &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLOT_FERTIGUNG</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Bitte mindestens eine Zeile auswählen ! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLOT_FERTIGUNG</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Konnte nicht in Tabelle &amp; einfügen! Schlüssel &amp; / &amp; / &amp;</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

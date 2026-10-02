@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/CIDEON/CL_XMLRPC_CLIENT</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>XML-RPC Client</DESCRIPT>
+    <STATE>1</STATE>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erzeugt einen Client basierend auf einer URL</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ruft eine XML-RPC Methode am Server auf</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>M_URL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>URL des XML-RPC Servers</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>M_XML_PROCESSOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erzeugung und Parsen von XML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SEND_HTML_REQUEST</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Schickt den XML-RPC Request via HTML an den Server</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>URL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>URL des XML-RPC Servers</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <SCONAME>HTTP_ERROR</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fehler bei der HTTP Kommunikation</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <SCONAME>REQUEST</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>XML-RPC Request</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE</CMPNAME>
+     <SCONAME>RESPONSE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>XML-RPC Antwort</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEND_HTML_REQUEST</CMPNAME>
+     <SCONAME>HTTP_ERROR</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>HTTP Fehler</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEND_HTML_REQUEST</CMPNAME>
+     <SCONAME>RESPONSE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>HTML Response</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEND_HTML_REQUEST</CMPNAME>
+     <SCONAME>XML</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>XML Request</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

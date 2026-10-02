@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_NSPC" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <NSPC>
+    <NAMESPACE>/CIDEON/</NAMESPACE>
+    <REPLICENSE>10349125002571177166</REPLICENSE>
+   </NSPC>
+   <NSPC_TEXT>
+    <SPRAS>D</SPRAS>
+    <DESCRIPTN>CIDEON Software GmbH</DESCRIPTN>
+    <OWNER>CIDEON Software GmbH</OWNER>
+   </NSPC_TEXT>
+   <CVERS>
+    <COMPONENT>CIDEON</COMPONENT>
+    <RELEASE>100_701</RELEASE>
+    <EXTRELEASE>0000</EXTRELEASE>
+    <COMP_TYPE>C</COMP_TYPE>
+   </CVERS>
+   <CVERS_REF>
+    <COMPONENT>CIDEON</COMPONENT>
+    <LANGU>D</LANGU>
+    <DESC_TEXT>CIDEON Tools</DESC_TEXT>
+   </CVERS_REF>
+  </asx:values>
+ </asx:abap>
+</abapGit>

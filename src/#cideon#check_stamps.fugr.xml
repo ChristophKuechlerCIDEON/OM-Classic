@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>wertet Stempel aus / erzeugt daraus neue</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/CIDEON/LCHECK_STAMPSTOP</SOBJ_NAME>
+    <SOBJ_NAME>/CIDEON/SAPLCHECK_STAMPS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/CIDEON/STMP_DOK_PRUEFINFO_W_V</FUNCNAME>
+     <SHORT_TEXT>STMP_DOK_PRUEFINFO für Willy Vogel</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_WA_PLOTJOBS</PARAMETER>
+       <TYP>ZCL_S_PLOTLIST</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>O_STEMPEL_WERT</PARAMETER>
+       <TYP>ZCL_STEMPEL_WERT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>I_ITAB_STAMPS</PARAMETER>
+       <DBSTRUCT>ZCL_S_STEMPEL_VALUE</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>I_ITAB_CLASS</PARAMETER>
+       <DBSTRUCT>ZCL_S_STEMPEL_VALUE</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_WA_PLOTJOBS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für ALV bei Suche im Plottinginterface</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>O_STEMPEL_WERT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Datenelement für Wert des Stempelfeldes</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ITAB_STAMPS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für Übergabe von Stempelwerten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ITAB_CLASS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für Übergabe von Stempelwerten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/CIDEON/STMP_DOK_TYPE_W_V</FUNCNAME>
+     <SHORT_TEXT>STMP_DOK_TYPE für Willy Vogel</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_WA_PLOTJOBS</PARAMETER>
+       <TYP>ZCL_S_PLOTLIST</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>O_STEMPEL_WERT</PARAMETER>
+       <TYP>ZCL_STEMPEL_WERT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>I_ITAB_STAMPS</PARAMETER>
+       <DBSTRUCT>ZCL_S_STEMPEL_VALUE</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>I_ITAB_CLASS</PARAMETER>
+       <DBSTRUCT>ZCL_S_STEMPEL_VALUE</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_WA_PLOTJOBS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für ALV bei Suche im Plottinginterface</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>O_STEMPEL_WERT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Datenelement für Wert des Stempelfeldes</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ITAB_STAMPS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für Übergabe von Stempelwerten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ITAB_CLASS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für Übergabe von Stempelwerten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/CIDEON/STMP_DOK_VERSION_W_V</FUNCNAME>
+     <SHORT_TEXT>STMP_DOK_VERSION für Willy Vogel</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_WA_PLOTJOBS</PARAMETER>
+       <TYP>ZCL_S_PLOTLIST</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>O_STEMPEL_WERT</PARAMETER>
+       <TYP>ZCL_STEMPEL_WERT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>I_ITAB_STAMPS</PARAMETER>
+       <DBSTRUCT>ZCL_S_STEMPEL_VALUE</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>I_ITAB_CLASS</PARAMETER>
+       <DBSTRUCT>ZCL_S_STEMPEL_VALUE</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_WA_PLOTJOBS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für ALV bei Suche im Plottinginterface</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>O_STEMPEL_WERT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Datenelement für Wert des Stempelfeldes</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ITAB_STAMPS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für Übergabe von Stempelwerten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ITAB_CLASS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für Übergabe von Stempelwerten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/CIDEON/STMP_VBELN_TEST</FUNCNAME>
+     <SHORT_TEXT>Testen auf gefüllte VBELN in den Stempeln</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_WA_PLOTJOBS</PARAMETER>
+       <TYP>ZCL_S_PLOTLIST</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>O_STEMPEL_WERT</PARAMETER>
+       <TYP>ZCL_STEMPEL_WERT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>I_ITAB_STAMPS</PARAMETER>
+       <DBSTRUCT>ZCL_S_STEMPEL_VALUE</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>I_ITAB_CLASS</PARAMETER>
+       <DBSTRUCT>ZCL_S_STEMPEL_VALUE</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_WA_PLOTJOBS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für ALV bei Suche im Plottinginterface</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>O_STEMPEL_WERT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Datenelement für Wert des Stempelfeldes</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ITAB_STAMPS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für Übergabe von Stempelwerten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ITAB_CLASS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für Übergabe von Stempelwerten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>VBELN not filled</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>050</KEY>
+       <ENTRY>Infor for paper original</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>VBELN not filled</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>050</KEY>
+       <ENTRY>Infor for paper original</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>L</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Vertriebsbelegnummer nicht gefüllt</ENTRY>
+       <LENGTH>34</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>050</KEY>
+       <ENTRY>Prüfinfo auf Papieroriginal</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

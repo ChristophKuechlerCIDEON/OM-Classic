@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/CIDEON/CL_PLOT_BO_BUS1001</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Plot Business Objekt &quot;Material&quot;</DESCRIPT>
+    <STATE>1</STATE>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_MARA_MATNR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Konvertiert die interne Materialnr in die 18-stellige Matnr</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ICON</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ikone des Business Objektes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MATERIALBEZ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kurztext</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MATERIALNR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Materialnummer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_MATERIALBEZ</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Materialbezeichnung übergeben</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IO_ADDITIONAL_DATA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zusatzdaten als Key, Wert Auflistung</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>MATERIALNR</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Materialnummer</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_MARA_MATNR</CMPNAME>
+     <SCONAME>RO_MARA_MATNR</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Materialnummer (kurz)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_MATERIALBEZ</CMPNAME>
+     <SCONAME>MATERIALBEZ</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Materialbezeichnung</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/CIDEON/CL_PLOT_BO_BUS2105_POS</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Plot Business Objekt &quot;Bestellanforderungspositon&quot;</DESCRIPT>
+    <STATE>1</STATE>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>BANFNR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Bestellanforderungsnummer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ICON</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ikone für das Business Objekl</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>POSITION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Positionsnummer der Bestellanforderung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_MATERIAL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Übermittlung der zugehörigen Materialdaten</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>BANFNR</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Bestellanforderungsnummer</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>POSITION</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Positionsnummer der Bestellanforderung</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_MATERIAL</CMPNAME>
+     <SCONAME>MATERIALBEZ</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kurztext</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_MATERIAL</CMPNAME>
+     <SCONAME>MATERIALNR</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Materialnummer</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,9 @@
+
+PROCESS BEFORE OUTPUT.
+
+  MODULE status_0680.
+*
+PROCESS AFTER INPUT.
+  MODULE user_command_0680 AT EXIT-COMMAND.
+
+  MODULE user_command_0680.

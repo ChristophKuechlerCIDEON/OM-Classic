@@ -1,0 +1,2 @@
+FUNCTION-POOL ZCL_DRUCK_DIALOG.             "MESSAGE-ID ..
+

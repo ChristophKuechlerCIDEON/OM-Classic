@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/CIDEON/CFX_OM</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Meldungen für cFolders Integration OM</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/CFX_OM</ARBGB>
+     <MSGNR>078</MSGNR>
+     <TEXT>Es ist kein cFolders-System in der Transaktion CFC01 gepflegt</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

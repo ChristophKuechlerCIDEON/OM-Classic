@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZCL_SPEZ_DOK</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>ZCL_SPEZ_DOK</DOMNAME>
+    <HEADLEN>27</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>19</SCRLEN2>
+    <SCRLEN3>27</SCRLEN3>
+    <DDTEXT>spezielles Dokument / kein DIS mglw.</DDTEXT>
+    <REPTEXT>Kennzeichen Spezialdokument</REPTEXT>
+    <SCRTEXT_S>spez. Dok.</SCRTEXT_S>
+    <SCRTEXT_M>Knz. spez. Dokument</SCRTEXT_M>
+    <SCRTEXT_L>Kennzeichen Spezialdokument</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Special document / no DIR available</DDTEXT>
+     <REPTEXT>Flag special DIR</REPTEXT>
+     <SCRTEXT_S>Flag.s.DIR</SCRTEXT_S>
+     <SCRTEXT_M>Flag spec. DIR</SCRTEXT_M>
+     <SCRTEXT_L>Flag special DIR</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Special document / no DIR available</DDTEXT>
+     <REPTEXT>Flag special DIR</REPTEXT>
+     <SCRTEXT_S>Flag.s.DIR</SCRTEXT_S>
+     <SCRTEXT_M>Flag spec. DIR</SCRTEXT_M>
+     <SCRTEXT_L>Flag special DIR</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Special document / no DIR available</DDTEXT>
+     <REPTEXT>Flag special DIR</REPTEXT>
+     <SCRTEXT_S>Flag.s.DIR</SCRTEXT_S>
+     <SCRTEXT_M>Flag spec. DIR</SCRTEXT_M>
+     <SCRTEXT_L>Flag special DIR</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>ZCL_SPEZ_DOK</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00002</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCL_SPEZ_DOK</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>beinhaltet das Kennzeichen für ein Spezialdokument, welche meist keinen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>DIS besitzt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

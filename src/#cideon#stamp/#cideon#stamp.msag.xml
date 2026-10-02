@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/CIDEON/STAMP</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/STAMP</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>kein Stempelprogramm im Customizing gefunden! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/STAMP</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Fehler mit RFC-Destination &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/STAMP</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>keine RFC Verbindung &amp; vorhanden. &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/STAMP</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Abbruch der RFC Verbindung Destination &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/STAMP</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Verbindungsfehler RFC-Destination: &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/STAMP</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Fehler bei FTP Connect Destination: &amp; Nutzer: &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/STAMP</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Fehler bei FTP Command Destination: &amp; Befehl: &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/STAMP</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Problem bei RFC-Aufruf : &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

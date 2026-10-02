@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Vertriebsrelevant</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/CIDEON/LPLOT_VATOP</SOBJ_NAME>
+    <SOBJ_NAME>/CIDEON/SAPLPLOT_VA</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/CIDEON/PLOT_VA_GET_ADDR_</FUNCNAME>
+     <SHORT_TEXT>Adresse für VBELN und Partnerrolle holen</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_VBELN</PARAMETER>
+       <TYP>VBELN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_PARVW</PARAMETER>
+       <TYP>PARVW_4</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>O_PARTNER_ADDR</PARAMETER>
+       <TYP>/CIDEON/SDPARTNER</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_VBELN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Vertriebsbelegnummer</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_PARVW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Partnerrolle</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>O_PARTNER_ADDR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>SD Partner</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/CIDEON/PLOT_VA_RLE_DELNOTE</FUNCNAME>
+     <SHORT_TEXT>Ausgabe über S-PSO bei Lieferungen etc.</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_LS_DLV_DELNOTE</PARAMETER>
+       <TYP>LEDLV_DELNOTE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_LS_JOB_OUTPUT_INFO</PARAMETER>
+       <TYP>SSFCRESCL</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_LS_DLV_DELNOTE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Lieferscheindaten: Übergabestruktur an SmartForm</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_LS_JOB_OUTPUT_INFO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Smart Forms: Rückgabe bei Ende Formulardruck</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/CIDEON/PLOT_VA_RVADOR01</FUNCNAME>
+     <SHORT_TEXT>Ausgabe über S-PSO bei Angebot etc.</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_RESULT</PARAMETER>
+       <TYP>ITCPP</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_VBDKA</PARAMETER>
+       <TYP>VBDKA</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>LT_VBDPA</PARAMETER>
+       <DBSTRUCT>VBDPA</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_RESULT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>SAPscript Ausgabe-Parameter</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_VBDKA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Dokumentenkopfview Anfrage, Angebot, Auftrag</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LT_VBDPA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Dokumentenpositionsview Anfrage, Angebot, Auftrag</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

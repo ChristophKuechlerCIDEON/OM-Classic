@@ -1,0 +1,4 @@
+FUNCTION-POOL ZCK_GEN.
+
+TABLES: ZCl_INSUPD.
+data  ok_code(4)..

@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/CIDEON/IF_PLOT_BO</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>An den Plotdienst angeschlossenes Business Objekt</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ACQUIRE_OBJECTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>AQUIRE_OBJECTS !!!! Obsolet !!!</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ACQUIRE_RELATED_OBJECTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermittelt die Plot Objekte, die mit diesem in Beziehung steh</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Legt fest, ob das Objekt im Selektionsdialog angezeigt wird</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ADDITIONAL_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Zusatzdaten als Collection Objekt</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ICON</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert das Ikon des Objektes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_KEY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erstellt bzw. Liefert den Schlüssel zur Identifizierung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SUPPORTED_DLTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die von Plot Objekt unterstützten Dokumentermittlung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_TEXT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Textrepräsentation des Objektes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_RELATED_OBJECTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüft, ob es referenzierte Plot Objekte gibt.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>NAME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Name des Business Objekttyps wie in SWO1</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>RELATED_OBJECTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>verbundene Objekte</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_ALL_OBJECTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Löscht alle gefundenen Objekte m. Dokumenten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_KEY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Setzt den Objektschlüssel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SUPPORTED_DLTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>unterstützte Dokumentverknüpfungstypen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ACQUIRE_OBJECTS</CMPNAME>
+     <SCONAME>CURRENT_LEVEL</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aktueller Level in der BO-Struktur</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ACQUIRE_OBJECTS</CMPNAME>
+     <SCONAME>DISPLAY</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Darstellung des Objektes Ja nein</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ACQUIRE_OBJECTS</CMPNAME>
+     <SCONAME>NOTHING_FOUND</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Es wurden keine verarbeitbaren Objekte gefunden. !Nachricht!</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ACQUIRE_OBJECTS</CMPNAME>
+     <SCONAME>PARENT_ITEM</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Übergeordnetes Tree Item</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ACQUIRE_OBJECTS</CMPNAME>
+     <SCONAME>SELECTION_TREE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tree Modell für Selektionsdialog</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <SCONAME>RB_DISPLAY</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Objekt anzeigen (ja/nein)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ADDITIONAL_DATA</CMPNAME>
+     <SCONAME>RO_ADDITIONAL_DATA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Zusatzdaten als Collection mit /CIDEON/CL_OO_STRING Objekten</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ICON</CMPNAME>
+     <SCONAME>RC_ICON</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ikone des Plot Objektes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_KEY</CMPNAME>
+     <SCONAME>KEY</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Schlüssel</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SUPPORTED_DLTS</CMPNAME>
+     <SCONAME>RO_DLTS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Dokumentverknüpfungstypen</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TEXT</CMPNAME>
+     <SCONAME>RC_TEXT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Text des Plot Objektes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>HAS_RELATED_OBJECTS</CMPNAME>
+     <SCONAME>RB_HAS_RELATED_OBJECTS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>True, wenn es referenzierte Objekte gibt</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_KEY</CMPNAME>
+     <SCONAME>OBJKEY</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Objektschlüssel</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+   <LONGTEXTS_IO>
+    <item>
+     <DOKIL>
+      <ID>IO</ID>
+      <OBJECT>/CIDEON/IF_PLOT_BO            ACQUIRE_OBJECTS</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/CIDEON/IF_PLOT_BO            ACQUIRE_OBJECTS</TDNAME>
+      <TDID>IO</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Diese Methode stellt die Menge der zu verarbeitenden Objekte zur</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Verfügung. Dies sind Objekte, die der Benutzer über die Oberfläche</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>selektiert hat.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>IO</ID>
+      <OBJECT>/CIDEON/IF_PLOT_BO            AQUIRE_OBJECTS</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/CIDEON/IF_PLOT_BO            AQUIRE_OBJECTS</TDNAME>
+      <TDID>IO</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FUNCTIONALITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Diese Methode stellt die Menge der zu verarbeitenden Objekte zur</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Verfügung. Dies sind Objekte, die der Benutzer über die Oberfläche</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>selektiert hat.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PRECONDITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;RESULT&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;PARAMETERS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXCEPTIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;HINTS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS_IO>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/CIDEON/MNGKO</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>/CIDEON/MNGKO</DOMNAME>
+    <HEADLEN>18</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Komponentenmenge</DDTEXT>
+    <REPTEXT>Menge</REPTEXT>
+    <SCRTEXT_S>Menge</SCRTEXT_S>
+    <SCRTEXT_M>Menge</SCRTEXT_M>
+    <SCRTEXT_L>Menge</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>quantity of components</DDTEXT>
+     <REPTEXT>quantity</REPTEXT>
+     <SCRTEXT_S>quantity</SCRTEXT_S>
+     <SCRTEXT_M>quantity</SCRTEXT_M>
+     <SCRTEXT_L>quantity</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>quantity of components</DDTEXT>
+     <REPTEXT>quantity</REPTEXT>
+     <SCRTEXT_S>quantity</SCRTEXT_S>
+     <SCRTEXT_M>quantity</SCRTEXT_M>
+     <SCRTEXT_L>quantity</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>quantity of components</DDTEXT>
+     <REPTEXT>quantity</REPTEXT>
+     <SCRTEXT_S>quantity</SCRTEXT_S>
+     <SCRTEXT_M>quantity</SCRTEXT_M>
+     <SCRTEXT_L>quantity</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

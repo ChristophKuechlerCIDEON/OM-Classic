@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Einkaufsrelevant</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/CIDEON/LPLOT_METOP</SOBJ_NAME>
+    <SOBJ_NAME>/CIDEON/SAPLPLOT_ME</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/CIDEON/PLOT_ME_FM06PE02</FUNCNAME>
+     <SHORT_TEXT>Ausgabe aus /CIDEON/FM06PE02</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>ENT_RETCO</PARAMETER>
+       <TYP>RETCO</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>L_NAST</PARAMETER>
+       <TYP>NAST</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>L_DOC</PARAMETER>
+       <TYP>MEEIN_PURCHASE_DOC_PRINT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>L_SPOOLID</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>RSPOID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ENT_RETCO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Return-Code</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>L_NAST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nachrichtenstatus</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>L_DOC</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>L_SPOOLID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Spool: Spool-Auftragsnummer</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

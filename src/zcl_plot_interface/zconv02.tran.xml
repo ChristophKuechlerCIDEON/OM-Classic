@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TRAN" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TSTC>
+    <TCODE>ZCONV02</TCODE>
+    <PGMNA>ZCONV_CONVERT_DOCUMENT</PGMNA>
+    <DYPNO>1000</DYPNO>
+    <CINFO>hA==</CINFO>
+   </TSTC>
+   <TSTCC>
+    <TCODE>ZCONV02</TCODE>
+    <S_WIN32>X</S_WIN32>
+   </TSTCC>
+   <TSTCT>
+    <SPRSL>D</SPRSL>
+    <TCODE>ZCONV02</TCODE>
+    <TTEXT>Dokument konvertieren</TTEXT>
+   </TSTCT>
+   <AUTHORIZATIONS>
+    <TSTCA>
+     <TCODE>ZCONV02</TCODE>
+     <OBJCT>C_DRAW_TCD</OBJCT>
+     <FIELD>ACTVT</FIELD>
+     <VALUE>03</VALUE>
+    </TSTCA>
+    <TSTCA>
+     <TCODE>ZCONV02</TCODE>
+     <OBJCT>C_DRAW_TCD</OBJCT>
+     <FIELD>DOKAR</FIELD>
+    </TSTCA>
+   </AUTHORIZATIONS>
+   <I18N_TPOOL>
+    <TSTCT>
+     <SPRSL>E</SPRSL>
+     <TTEXT>Convert document</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>F</SPRSL>
+     <TTEXT>Convertir document</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>I</SPRSL>
+     <TTEXT>Convertire documento</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>J</SPRSL>
+     <TTEXT>文書変換</TTEXT>
+    </TSTCT>
+    <TSTCT>
+     <SPRSL>L</SPRSL>
+     <TTEXT>Convert document</TTEXT>
+    </TSTCT>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

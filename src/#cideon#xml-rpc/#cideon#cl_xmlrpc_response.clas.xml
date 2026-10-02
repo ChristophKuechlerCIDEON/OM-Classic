@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/CIDEON/CL_XMLRPC_RESPONSE</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>XML-RPC Antwort</DESCRIPT>
+    <STATE>1</STATE>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FAULT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fehlerinformationen, bei Fehlerrückmeldung vom Server</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_FAULT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt True zurück, wenn die Antwort einen Fehlercode enthält</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VALUE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Rückgabewert</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>PARAMETER</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>XML-RPC Rückgabeparameter</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_FAULT</CMPNAME>
+     <SCONAME>FAULT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>True, wenn es ein Fault ist</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

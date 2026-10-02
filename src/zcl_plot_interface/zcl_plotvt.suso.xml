@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOBJ>
+    <OBJCT>ZCL_PLOTVT</OBJCT>
+    <FIEL1>ZCL_TA</FIEL1>
+    <FIEL2>ZCL_NAMEVT</FIEL2>
+    <OCLSS>ZPLO</OCLSS>
+    <CONVERSION>X</CONVERSION>
+   </TOBJ>
+   <TOBJT>
+    <LANGU>D</LANGU>
+    <OBJECT>ZCL_PLOTVT</OBJECT>
+    <TTEXT>Berechtigungsobjekt Verteiler</TTEXT>
+   </TOBJT>
+   <TOBJVORFLG>
+    <OBJCT>ZCL_PLOTVT</OBJCT>
+   </TOBJVORFLG>
+  </asx:values>
+ </asx:abap>
+</abapGit>

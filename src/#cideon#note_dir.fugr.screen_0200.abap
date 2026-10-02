@@ -1,0 +1,8 @@
+
+PROCESS BEFORE OUTPUT.
+
+  MODULE status_0200.
+
+PROCESS AFTER INPUT.
+
+  MODULE user_command_0200.

@@ -1,0 +1,25 @@
+
+PROCESS BEFORE OUTPUT.
+* MODULE STATUS_0100.
+
+  MODULE set_content.
+
+  MODULE init_controls_0100.
+  MODULE status_0100 .
+
+  CALL SUBSCREEN ref1 INCLUDING sy-repid '0101'.
+  CALL SUBSCREEN ref2 INCLUDING sy-repid '0111'.
+
+
+*
+PROCESS AFTER INPUT.
+* MODULE USER_COMMAND_0100.
+*module exit.
+  CALL SUBSCREEN ref1.
+  CALL SUBSCREEN ref2.
+
+
+  MODULE user_command_0100.
+
+  MODULE get_content.
+

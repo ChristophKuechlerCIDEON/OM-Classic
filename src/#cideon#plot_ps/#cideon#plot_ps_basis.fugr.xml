@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>FG Basisfunktionen für Ausgabe PS</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/CIDEON/LPLOT_PS_BASISTOP</SOBJ_NAME>
+    <SOBJ_NAME>/CIDEON/SAPLPLOT_PS_BASIS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/CIDEON/DEL_WSA</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Löschen einer WSA am DIS</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>DRAW</PARAMETER>
+       <TYP>DRAW</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>WSA</PARAMETER>
+       <TYP>DAPPL</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>DRAW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für Rückmeldung</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WSA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Workstation-Applikation</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>allgemeiner Fehler</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

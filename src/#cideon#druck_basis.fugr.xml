@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Basisfunktionalität / Tools / etc.</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/CIDEON/LDRUCK_BASISTOP</SOBJ_NAME>
+    <SOBJ_NAME>/CIDEON/SAPLDRUCK_BASIS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/CIDEON/CHG_INTERVAL_MLTPAGE</FUNCNAME>
+     <SHORT_TEXT>test</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_WA_PLOTJOBS</PARAMETER>
+       <TYP>ZCL_S_PLOTLIST</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_SEITE_VON</PARAMETER>
+       <TYP>ZCL_S_PLOTLIST-SEITE_VON</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_SEITE_BIS</PARAMETER>
+       <TYP>ZCL_S_PLOTLIST-SEITE_BIS</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IO_ITAB_PLOTJOBS</PARAMETER>
+       <DBSTRUCT>ZCL_S_PLOTLIST</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_WA_PLOTJOBS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für ALV bei Suche im Plottinginterface</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_SEITE_VON</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Seite von .. (Intervalbeginn)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_SEITE_BIS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Endseite des Intervalles</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IO_ITAB_PLOTJOBS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für ALV bei Suche im Plottinginterface</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/CIDEON/CHG_LINK_PREPRO_USER</FUNCNAME>
+     <SHORT_TEXT>Änderung der ZuordnugnNutzer &lt;-&gt; Preprozessor</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>USER</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SY-UNAME</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>USER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>R/3-System, Anmeldename des Benutzers</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/CIDEON/GET_VERTEILER</FUNCNAME>
+     <SHORT_TEXT>Hole Verteiler für Nutzer</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_DEFAULT_DATA</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/CIDEON/PLOT_DEFAULTDATA</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>ET_VERTEILER</PARAMETER>
+       <DBSTRUCT>ZCL_V_PRE_US_VER</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_DEFAULT_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für Übergabe der Defaultdaten fürs Plotten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_VERTEILER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Generierte Tabelle zum View ZCL_V_PRE_US_VER</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/CIDEON/MAKE_SEND_LOG_ENTRIES</FUNCNAME>
+     <SHORT_TEXT>Einträge in Applikation LOG vornehmen</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_MSGID</PARAMETER>
+       <TYP>SYMSGID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MSGNO</PARAMETER>
+       <TYP>SYMSGNO</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>I_ITAB_PLOTJOBS</PARAMETER>
+       <DBSTRUCT>ZCL_S_PLOTLIST</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_MSGID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nachrichten, Nachrichtenklasse</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MSGNO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Nachrichten, Nachrichtennummer</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ITAB_PLOTJOBS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für ALV bei Suche im Plottinginterface</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY> copies</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY> copies</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>L</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY> Kopie(n)</ENTRY>
+       <LENGTH>10</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

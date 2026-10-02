@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PARA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TPARA>
+    <PARAMID>/CIDEON/OM_USE_FILT</PARAMID>
+    <PARTEXT>Nutzung von Filtern bei WSA</PARTEXT>
+   </TPARA>
+   <TPARAT>
+    <PARAMID>/CIDEON/OM_USE_FILT</PARAMID>
+    <SPRACHE>D</SPRACHE>
+    <PARTEXT>Nutzung von Filtern bei WSA</PARTEXT>
+   </TPARAT>
+  </asx:values>
+ </asx:abap>
+</abapGit>

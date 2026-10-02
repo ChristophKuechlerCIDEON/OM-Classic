@@ -1,0 +1,37 @@
+
+PROCESS BEFORE OUTPUT.
+  MODULE status_0602.
+* PBO FLOW LOGIC FOR TABLECONTROL 'Z602'
+  MODULE z602_init.
+* MODULE Z602_CHANGE_TC_ATTR.
+* MODULE Z602_CHANGE_COL_ATTR.
+  LOOP AT   g_z602_itab
+       INTO g_z602_wa
+       WITH CONTROL z602
+       CURSOR z602-current_line.
+*   MODULE Z602_CHANGE_FIELD_ATTR
+    MODULE z602_move.
+  ENDLOOP.
+*
+
+
+PROCESS AFTER INPUT.
+* PAI FLOW LOGIC FOR TABLECONTROL 'Z602'
+  LOOP AT g_z602_itab.
+    CHAIN.
+      FIELD tdwp-dappl.
+      FIELD tdwp-cvtext.
+      FIELD tdwp-dateifrmt.
+
+      MODULE z602_modify ON CHAIN-REQUEST.
+    ENDCHAIN.
+    FIELD g_z602_wa-flag
+    MODULE z602_mark ON REQUEST.
+  ENDLOOP.
+
+    MODULE user_command_0602.
+* Module Z602_AFTER_INPUT.  " Mamillapalli....
+* MODULE Z602_CHANGE_TC_ATTR.
+* MODULE Z602_CHANGE_COL_ATTR.
+
+

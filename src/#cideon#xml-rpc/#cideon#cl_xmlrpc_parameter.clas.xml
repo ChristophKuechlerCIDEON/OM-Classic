@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/CIDEON/CL_XMLRPC_PARAMETER</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>XML-RPC Parameterdefinition</DESCRIPT>
+    <STATE>1</STATE>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ARRAY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Array mit XML-RPC Werten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ARRAY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert das Array zurück, wenn der Wert ein Array ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_STRUCTURE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert die Struktur, wenn der Parameter eine Struktur ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_STRUCTURE_ELEMENT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert den XML-RPC Parameterwert eines Strukturelements</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_ARRAY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert True, wenn der Parameter ein Array ist.</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_STRUCTURE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert True, wenn der Parameter eine Struktur ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>STRUCTURE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Map von Strings auf Objekte</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>XML-RPC Datentyp</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VALUE_AS_INTEGER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert den Parameterwert (Integer)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VALUE_AS_STRING</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert den Parameterwert</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VALUE_INT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Parameterwert (Integer)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VALUE_STRING</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Parameterwert (String)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>XML-RPC Parametertyp (default: String)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>UNKNOWN_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Unbekannter XML-RPC Datentyp</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>VALUE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Parameterwert</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ARRAY</CMPNAME>
+     <SCONAME>ARRAY</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Array</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STRUCTURE</CMPNAME>
+     <SCONAME>STRUCTURE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Struktur als Collection</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STRUCTURE_ELEMENT</CMPNAME>
+     <SCONAME>ELEMENT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>XML-RPC Parameterwert</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STRUCTURE_ELEMENT</CMPNAME>
+     <SCONAME>ELEMENT_NOT_EXISTS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Das angefragte Element ist nicht Bestandteil der Struktur</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STRUCTURE_ELEMENT</CMPNAME>
+     <SCONAME>NAME</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Name des Elements</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_STRUCTURE_ELEMENT</CMPNAME>
+     <SCONAME>NO_STRUCTURE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Der XML-RPC Parameter ist keine Struktur</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_ARRAY</CMPNAME>
+     <SCONAME>IS_ARRAY</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>True, wenn Array</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_STRUCTURE</CMPNAME>
+     <SCONAME>STRUCTURE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>True, wenn es eine Struktur ist</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALUE_AS_INTEGER</CMPNAME>
+     <SCONAME>VALUE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Integerwert</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALUE_AS_STRING</CMPNAME>
+     <SCONAME>VALUE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Parameterwert</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

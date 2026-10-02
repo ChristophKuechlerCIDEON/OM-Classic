@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SXCI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SXCI>
+    <IMPLEMENTATION_DATA>
+     <IMP_NAME>/CIDEON/DOC_STMP_VW</IMP_NAME>
+     <TEXT>Badi  Implementation speziell  fürs Stempeln von der Ansicht</TEXT>
+     <IMP_CLASS>/CIDEON/CL_IM_DOC_STMP_VW</IMP_CLASS>
+     <EXIT_NAME>DOCUMENT_FILES01</EXIT_NAME>
+     <INTER_NAME>IF_EX_DOCUMENT_FILES01</INTER_NAME>
+    </IMPLEMENTATION_DATA>
+   </SXCI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

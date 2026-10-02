@@ -1,0 +1,2 @@
+FUNCTION-POOL /CIDEON/STAMPS.               "MESSAGE-ID ..
+

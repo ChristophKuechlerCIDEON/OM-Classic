@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCL_PROD_STRUK_BRWS</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Messageklasse für Erweiterung des Produktstrukturbrowsers</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PROD_STRUK_BRWS</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>keine plotbaren Dokumente zum Plotten ausgewählt! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PROD_STRUK_BRWS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Funktionaltät für diese Transaktion noch nicht freigegeben! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PROD_STRUK_BRWS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Dokumente erfolgreich der Queue beigefügt. &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PROD_STRUK_BRWS</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Problem beim Druck der Stückliste &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PROD_STRUK_BRWS</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Funktionsbaustein &amp; nicht vorhanden &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PROD_STRUK_BRWS</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Funktionsbaustein &amp; nicht aktiv vorhanden &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PROD_STRUK_BRWS</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Stückliste nicht gültig zu diesem Zeitpunkt &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+   </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZCL_PROD_STRUK_BRWS002</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00004</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCL_PROD_STRUK_BRWS002</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die von Ihnen gewählte Funktionalität wurde für die diese Transaktion</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>noch nicht freigegeben.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bitte benachrichtigen sie Ihren Entwickler, Ihre Entwicklungsfirma und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fragen sie nach weiterführenden Programmversionen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

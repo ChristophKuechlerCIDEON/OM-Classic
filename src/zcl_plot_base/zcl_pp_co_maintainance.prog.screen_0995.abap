@@ -1,0 +1,10 @@
+
+PROCESS BEFORE OUTPUT.
+
+  MODULE status_0995.
+  CALL SUBSCREEN selection_screen_0994 INCLUDING sy-repid '0994'.
+*
+PROCESS AFTER INPUT.
+  CALL SUBSCREEN selection_screen_0994.
+
+  MODULE user_command_0995.

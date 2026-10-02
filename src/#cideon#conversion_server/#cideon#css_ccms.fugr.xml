@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Jobverwaltung Conversion Server</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/CIDEON/LCSS_CCMSF01</SOBJ_NAME>
+    <SOBJ_NAME>/CIDEON/LCSS_CCMSTOP</SOBJ_NAME>
+    <SOBJ_NAME>/CIDEON/SAPLCSS_CCMS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/CIDEON/PROCESS_WORK_ENTRY_CSS</FUNCNAME>
+     <SHORT_TEXT>Eintrag für CSS Verarbeitung verarbeiten</SHORT_TEXT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>KEIN_EINTRAG</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GESPERRT</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>KEIN_EINTRAG</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GESPERRT</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/CIDEON/SET_WORK_ENTRY_CSS</FUNCNAME>
+     <SHORT_TEXT>Eintrag für CSS Verarbeitung setzen</SHORT_TEXT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>KEIN_EINTRAG</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>GESPERRT</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>KEIN_EINTRAG</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>GESPERRT</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

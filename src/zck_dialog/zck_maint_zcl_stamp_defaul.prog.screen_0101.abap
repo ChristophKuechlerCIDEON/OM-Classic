@@ -1,0 +1,14 @@
+
+PROCESS BEFORE OUTPUT.
+
+  MODULE status_0101.
+*
+PROCESS AFTER INPUT.
+
+  MODULE get_cursor.
+
+* MODULE USER_COMMAND_0101.
+
+*PROCESS ON VALUE-REQUEST.
+*  FIELD zcl_stamp_defaul-fm_name MODULE fm_name.
+

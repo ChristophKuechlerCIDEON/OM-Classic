@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>FG für CAD_GET_TITLE. relevante Dinge</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/CIDEON/LCAD_GET_SPSOTOP</SOBJ_NAME>
+    <SOBJ_NAME>/CIDEON/SAPLCAD_GET_SPSO</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/CIDEON/CAD_TITLEBLOCK_SPSO</FUNCNAME>
+     <SHORT_TEXT>Abgleich Schriftkopfdaten via SPSO / Stempelfelder</SHORT_TEXT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>DOCUMENTDATA</PARAMETER>
+       <DBFIELD>BAPI_DOC_DRAW</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>ECMDATA</PARAMETER>
+       <DBFIELD>AENR_API02</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSCHA>
+     </CHANGING>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_RETURN</PARAMETER>
+       <DBFIELD>CAD_RETURN-VALUE</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_MESSAGE</PARAMETER>
+       <DBFIELD>MESSAGE-MSGTX</DBFIELD>
+       <REFERENCE>X</REFERENCE>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>IMPORT_DATA</PARAMETER>
+       <DBSTRUCT>RFCDMSDATA</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>OBJECTLINKS</PARAMETER>
+       <DBSTRUCT>BAPI_DOC_DRAD</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>DOCUMENTDESCRIPTIONS</PARAMETER>
+       <DBSTRUCT>BAPI_DOC_DRAT</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>LONGTEXTS</PARAMETER>
+       <DBSTRUCT>BAPI_DOC_TEXT</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>STATUSLOG</PARAMETER>
+       <DBSTRUCT>CAD_DOC_DRAP</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>CLASS_DATA</PARAMETER>
+       <DBSTRUCT>CLS_CHARAC</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>EXPORT_DATA</PARAMETER>
+       <DBSTRUCT>RFCDMSDATA</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>USER_DATA</PARAMETER>
+       <DBSTRUCT>RFCDMSDATA</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>E_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>CAD: Returnwert</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_MESSAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Messagetext für CAD-Dialog-Schnittstelle</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IMPORT_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Übergabestruktur für DMS-Daten mit CAD Dialog-RFC</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OBJECTLINKS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>BAPIS-DVS: Objektverknüpfungen eines Dokuments</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DOCUMENTDESCRIPTIONS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>BAPIS-DVS: Kurztexte</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LONGTEXTS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>BAPIS-DVS: Langtext-Daten eines Dokuments</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>STATUSLOG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>CAD: Statusprotokoll</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CLASS_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Merkmale mit Werten zu einer Klasse</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EXPORT_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Übergabestruktur für DMS-Daten mit CAD Dialog-RFC</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>USER_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Übergabestruktur für DMS-Daten mit CAD Dialog-RFC</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DOCUMENTDATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>BAPIS-DVS: Dokumentdaten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ECMDATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ECM: Schnittstelle zum Anzeigen der Tabelle AENR über API</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

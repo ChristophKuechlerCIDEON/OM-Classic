@@ -1,0 +1,1173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Nachrichtenklasse Z_PLINT_TOOLS</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>kein Wert für Defaultnutzer vorhanden! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Keine Einträge in Tabelle &amp; &amp; &amp; &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Konnte keine Werte in Tabelle &amp;  einfügen! &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Aktion erfolgreich! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Bitte Werte für Pfade setzen!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>keine Beschreibung für Mat. Status &amp; gefunden! &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>keine Materialverknüpfung zu Dokument &amp; &amp; &amp; &amp;!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>kein Dokumententext für Material &amp; in Sprache &amp; &amp; &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Probleme bei der Ermittlung des Hostnamens &amp; &amp; &amp; &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>&amp; Einträge gelöscht! &amp; Einträge nicht gelöscht! &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>&amp; Dateien gelöscht! &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Kein Eintrag für Parameter &amp; ! Beende Programm! &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>kein Eintrag in Tabelle: &amp; für Nutzer: &amp;. Source: &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Verteiler erfolreich gelöscht</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Probleme beim Upload! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Probleme beim Modify! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Probleme beim Lesen! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Voreinstellungen wurden aufgefrischt! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Verteiler wurden aufgefrischt! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Stempel INI wurde eingelesen!&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Stempel wurden aufgefrischt! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Probleme beim Lesen! &amp; &amp; benutze  &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>CLF Skeletons wurden aufgefrischt! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>CLF Skeletonlines wurden aufgefrischt! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>PPL Skeletons wurden aufgefrischt! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>PPL Skeletonlines wurden aufgefrischt! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>leere Datei ! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Versionshinweise wurden aufgefrischt! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Patchhinweise wurden aufgefrischt! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Laden der Suchdatei erfolgreich! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Suchdatei erfolgreich gespeichert! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>Aktion abgebrochen! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>Plotliste erfolgreich gespeichert! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>Laden der Plotliste erfolgreich! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Probleme beim Lesen der Stückliste! Dok. &amp; Typ &amp;  &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Dokument besitzt keine Stückliste! Dok. &amp; Typ &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>bitte schließen Sie die Pfadangabe mit &apos;\&apos; ab. &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>099</MSGNR>
+     <TEXT>Sie haben keine Berechtigung ! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>interne Tabelle &amp; ist leider leer! &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>konnte Eintrage für Schlüssel &amp; &amp; &amp; &amp; nicht löschen!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>inkonsistente Daten in übergebener interner Tabelle! &amp; Zeile &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Konte nicht in Tabelle &amp; einfügen! Zeile &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>Konnte Datensätze in &amp; nicht löschen! &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>Datensätze erfolgreich in &amp; angelegt! &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>Keine Info für Transaktion &amp; in Sprache &amp; gefunden! Tabelle &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>Keine Info für Transaktion &amp; gefunden! Tabelle &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>150</MSGNR>
+     <TEXT>Bitte Eingaben überprüfen &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>151</MSGNR>
+     <TEXT>Problem bei Update Tabelle: &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>155</MSGNR>
+     <TEXT>Updates erfolgreich &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <MSGNR>999</MSGNR>
+     <TEXT>:-)</TEXT>
+    </T100>
+   </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZCL_PLINT_TOOLS057</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00004</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCL_PLINT_TOOLS057</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es wurde ein erwarteter Eintrag in der angegebenen Tabelle  nicht</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gefunden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Falls es sich dabei um eine Konfigurationstabelle handelte, so wird ein</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Vorschlagswert benutzt, um eine weitere Verarbeitung zu ermöglichen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <STEXT>Message class ZCL_PLINT_TOOLS</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <STEXT>Message class ZCL_PLINT_TOOLS</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>ZCL_PLINT_TOOLS</ARBGB>
+     <STEXT>Message class ZCL_PLINT_TOOLS</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>no value for default user availible! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>No entries in table &amp; &amp; &amp; &amp; !</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Could not insert values into table &amp; ! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Process succeded! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Please set values for dir!</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>no description for mat.status &amp; found! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>no material link to document &amp; &amp; &amp; &amp; !</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>no document text for material &amp; in language &amp; &amp; &amp; !</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>problems requesting hostname &amp; &amp; &amp; &amp; !</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>&amp; entries deleted! &amp; entries not deleted! &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>&amp; files deleted! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>No entry for parameter &amp; ! Leave program! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>No entry in table: &amp; for user: &amp;. source: &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Distributions successfully deleted.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Problems at updload! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Problems at modify! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Problems at read! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Properties refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Distributors refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Stamps INI readed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Stamps refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Problems at Read! &amp; &amp; use &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>CLF skeletons refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>CLF skeletonlines refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>PPL skeletons refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>PPL skeletonlines refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>empty file! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Version notes refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Patch notes refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>successfully loading of search file! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Search file successfully saved! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Abort process! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Plotlist saved successfully! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Successfully loading of Plotlist  &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Problems at reading bill of doc.! doc. &amp; type &amp;  &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Document have no bill of documents! Doc: &amp; type &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>Please end the directory with &apos;\&apos;. &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>You have no rights for this! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>Internal table &amp; is empty! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Could not delete entry for key &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>inconsistend data in given internal table! &amp; line &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Could not insert in table &amp; ! Line &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Could not delete entries in &amp; ! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Entries created in &amp; ! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>No info for transaction &amp; in Language &amp; found! Table &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Could not found info for transaction &amp;! Table &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>Check your entries &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>Problems at update Table: &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>155</MSGNR>
+     <TEXT>Update succeded &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>999</MSGNR>
+     <TEXT>:-)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>no value for default user availible! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>No entries in table &amp; &amp; &amp; &amp; !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Could not insert values into table &amp; ! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Process succeded! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Please set values for dir!</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>no description for mat.status &amp; found! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>no material link to document &amp; &amp; &amp; &amp; !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>no document text for material &amp; in language &amp; &amp; &amp; !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>problems requesting hostname &amp; &amp; &amp; &amp; !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>&amp; entries deleted! &amp; entries not deleted! &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>&amp; files deleted! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>No entry for parameter &amp; ! Leave program! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>No entry in table: &amp; for user: &amp;. source: &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Distributions successfully deleted.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Problems at updload! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Problems at modify! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Problems at read! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Properties refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Distributors refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Stamps INI readed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Stamps refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Problems at Read! &amp; &amp; use &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>CLF skeletons refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>CLF skeletonlines refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>PPL skeletons refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>PPL skeletonlines refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>empty file! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Version notes refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Patch notes refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>successfully loading of search file! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Search file successfully saved! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Abort process! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Plotlist saved successfully! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Successfully loading of Plotlist  &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Problems at reading bill of doc.! doc. &amp; type &amp;  &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Document have no bill of documents! Doc: &amp; type &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>Please end the directory with &apos;\&apos;. &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>You have no rights for this! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>Internal table &amp; is empty! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Could not delete entry for key &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>inconsistend data in given internal table! &amp; line &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Could not insert in table &amp; ! Line &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Could not delete entries in &amp; ! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Entries created in &amp; ! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>No info for transaction &amp; in Language &amp; found! Table &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Could not found info for transaction &amp;! Table &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>Check your entries &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>Problems at update Table: &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>155</MSGNR>
+     <TEXT>Update succeded &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>999</MSGNR>
+     <TEXT>:-)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>no value for default user availible! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>No entries in table &amp; &amp; &amp; &amp; !</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Could not insert values into table &amp; ! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Process succeded! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Please set values for dir!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>no description for mat.status &amp; found! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>no material link to document &amp; &amp; &amp; &amp; !</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>no document text for material &amp; in language &amp; &amp; &amp; !</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>problems requesting hostname &amp; &amp; &amp; &amp; !</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>&amp; entries deleted! &amp; entries not deleted! &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>&amp; files deleted! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>No entry for parameter &amp; ! Leave program! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>No entry in table: &amp; for user: &amp;. source: &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Distributions successfully deleted.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Problems at updload! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Problems at modify! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Problems at read! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Properties refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Distributors refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Stamps INI readed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Stamps refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Problems at Read! &amp; &amp; use &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>CLF skeletons refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>CLF skeletonlines refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>PPL skeletons refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>PPL skeletonlines refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>empty file! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Version notes refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Patch notes refreshed! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>successfully loading of search file! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Search file successfully saved! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Abort process! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Plotlist saved successfully! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Successfully loading of Plotlist  &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Problems at reading bill of doc.! doc. &amp; type &amp;  &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Document have no bill of documents! Doc: &amp; type &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>Please end the directory with &apos;\&apos;. &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>You have no rights for this! &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>Internal table &amp; is empty! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Could not delete entry for key &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>inconsistend data in given internal table! &amp; line &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Could not insert in table &amp; ! Line &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Could not delete entries in &amp; ! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Entries created in &amp; ! &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>No info for transaction &amp; in Language &amp; found! Table &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Could not found info for transaction &amp;! Table &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>Check your entries &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>Problems at update Table: &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>155</MSGNR>
+     <TEXT>Update succeded &amp; &amp; &amp; &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>999</MSGNR>
+     <TEXT>:-)</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

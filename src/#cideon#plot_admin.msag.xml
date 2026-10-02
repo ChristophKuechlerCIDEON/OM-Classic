@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Meldungen im Adminmodule für das Plotten</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Probleme beim Einfügen in Tabelle &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Probleme beim Einfügen in Tabelle &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Keine Daten für Selektion verfügbar. &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Problem beim Lesen Tabelle: &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Probleme beim Löschen &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Bitte nur eine Zeile auswählen. &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Bitte nur Fehlblatteinträge auswählen &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Problem bei Auswahl eines Originals um ein Fehlblatt zu ersetzen &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Bitte treffen Sie vorher eine Auswahl.... &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Bitte nur Spezialdokumente (Plotanforderung ohne DIS) auswählen &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Dokument Art: &amp; Nummer: &amp; Teildokument: &amp; Version: &amp; nicht vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Probleme Update Tabelle: &amp; Art: &amp; Nummer: &amp; Teildokument: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Problem beim Löschen Tabelle: &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>DIS erfolgreich zugeordnet &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Original erfolgreich zugeordnet. &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Plot gestartet &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Update erfolgreich &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>funktioniert noch nicht!!!!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Bitte min. 1 Zeile markieren !!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>testanruf1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>testanruf2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>testbrille1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>testbrille2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Sie sollten mindestens eine Zeile selektieren ! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Es werden nur abgelegte Originale benutzt. &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Abbruch durch Benutzer &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Daten erfolgreich gelesen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>HTTP Fehler - PlotInfoServer &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Probleme beim Update &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Fehler - PlotInfoServer &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_ADMIN</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Es wurden &amp; Datensätze upgedated!</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/CIDEON/CL_PLOT_BO_EKKO_POS</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Plot BO: Einkaufsbelegsposition</DESCRIPT>
+    <STATE>1</STATE>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ICON</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ikone für das Business Objekl</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>POSITION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Positionsnummer des Einkaufsbeleges</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PURDOCNO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Belegnummer des Einkaufsbelegs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_MATERIAL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Übermittelt das in der Position eingegebene Material</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IO_ADDITIONAL_DATA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Auflistung von STRING Objekten mit Zusatzdaten</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_MATERIAL</CMPNAME>
+     <SCONAME>DESCRIPTION</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Materialkurztext</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_MATERIAL</CMPNAME>
+     <SCONAME>MATERIALNO</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Materialnummer</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

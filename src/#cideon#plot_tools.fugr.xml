@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>CIDEON OM Tools</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/CIDEON/LPLOT_TOOLSF01</SOBJ_NAME>
+    <SOBJ_NAME>/CIDEON/LPLOT_TOOLSTOP</SOBJ_NAME>
+    <SOBJ_NAME>/CIDEON/SAPLPLOT_TOOLS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/CIDEON/READ_DEFAULTDATA</FUNCNAME>
+     <SHORT_TEXT>Defaultdaten fürs Plotten lesen</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_BATCH</PARAMETER>
+       <DEFAULT>&apos;&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR01</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>O_DEFAULT_DATA</PARAMETER>
+       <TYP>/CIDEON/PLOT_DEFAULTDATA</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_BATCH</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Charakterfeld der Länge 1</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>O_DEFAULT_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für Übergabe der Defaultdaten fürs Plotten</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/CIDEON/READ_USERDATA</FUNCNAME>
+     <SHORT_TEXT>Nutzerdaten fürs Plotten lesen</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_DEFAULT_DATA</PARAMETER>
+       <TYP>/CIDEON/PLOT_DEFAULTDATA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_UNAME</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>XUBNAME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_BATCH</PARAMETER>
+       <DEFAULT>&apos;&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR01</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>O_USER_DATA</PARAMETER>
+       <TYP>/CIDEON/PLOT_USERDATA</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_DEFAULT_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für Übergabe der Defaultdaten fürs Plotten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_UNAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Benutzername im Benutzerstamm</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_BATCH</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Charakterfeld der Länge 1</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>O_USER_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Struktur für Übergabe Nutzerdaten des Plottens</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/CIDEON/_WRT_PSB_TMP_SD_CS</FUNCNAME>
+     <SHORT_TEXT>Übergabe für techn. Dokumentation</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_DATEINAME_ZIEL</PARAMETER>
+       <DEFAULT>&apos;&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>FILEP</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_KNZ_START_OUTPUT</PARAMETER>
+       <DEFAULT>&apos;X&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_KNZ_MERGE</PARAMETER>
+       <DEFAULT>&apos;X&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_KNZ_MERGE_GROUP</PARAMETER>
+       <DEFAULT>&apos;&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_KNZ_DYN_COV</PARAMETER>
+       <DEFAULT>&apos;&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_BYPASS_SEARCHLIST</PARAMETER>
+       <DEFAULT>&apos;&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_KNZ_USE_FILTER</PARAMETER>
+       <DEFAULT>&apos;&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_BYPASS_PLOTLIST</PARAMETER>
+       <DEFAULT>&apos;&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_USE_OPERATOR_MODE</PARAMETER>
+       <DEFAULT>&apos;&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_BATCH</PARAMETER>
+       <DEFAULT>&apos;&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_VERTEILER</PARAMETER>
+       <DEFAULT>&apos;&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZCL_NAME_VERTEILER</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_COUNT_SET</PARAMETER>
+       <DEFAULT>&apos;&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR5</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>I_ITAB_OBJECTS</PARAMETER>
+       <DBSTRUCT>ZCL_PDM_EXP_OBJECTS</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>I_LT_DAPPL</PARAMETER>
+       <DBSTRUCT>TDWP</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_DATEINAME_ZIEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Original zu Dokument</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_KNZ_START_OUTPUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Einstelliges Kennzeichen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_KNZ_MERGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Einstelliges Kennzeichen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_KNZ_MERGE_GROUP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Einstelliges Kennzeichen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_KNZ_DYN_COV</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Einstelliges Kennzeichen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_BYPASS_SEARCHLIST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>durchlaufe OCC</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_KNZ_USE_FILTER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>benutze Filter</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_BYPASS_PLOTLIST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>gehe zu Plotliste</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_USE_OPERATOR_MODE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>PlotOperator</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_BATCH</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Einstelliges Kennzeichen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_VERTEILER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Name des Verteilers</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_COUNT_SET</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Satzanzahl</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ITAB_OBJECTS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Exportierte Objekte aus dem Produktstrukturbrowser</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_LT_DAPPL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Dokumentarten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

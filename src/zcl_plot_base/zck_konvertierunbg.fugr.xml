@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Konvertierungen / Auschecken / Einchecke</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZCK_KONVERTIERUNBGF01</SOBJ_NAME>
+    <SOBJ_NAME>LZCK_KONVERTIERUNBGTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZCK_KONVERTIERUNBG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_CL_UPLOAD_BACK_TO_SAP_REPOS</FUNCNAME>
+     <SHORT_TEXT>Konvertierungen / Auschecken / Einchecken</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_WA_DIR</PARAMETER>
+       <TYP>SDOKPATH</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_TRESOR</PARAMETER>
+       <TYP>DTTRG</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>NO_FILES</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_WA_DIR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>SDOK: Pfad einer Datei</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_TRESOR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Name des Datenträgers</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_FILES</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>L</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>020</KEY>
+       <ENTRY>      bearbeite :</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

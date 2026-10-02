@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VIEW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>ZCL_V_USR_GRP_KL</VIEWNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <AGGTYPE>V</AGGTYPE>
+    <ROOTTAB>ZCL_GRP_CLASS_KL</ROOTTAB>
+    <DDTEXT>View für Nutzer / Gruppe mit aktiven Status / Eingabehilfe</DDTEXT>
+    <VIEWCLASS>D</VIEWCLASS>
+    <VIEWGRANT>R</VIEWGRANT>
+   </DD25V>
+   <DD26V_TABLE>
+    <DD26V>
+     <VIEWNAME>ZCL_V_USR_GRP_KL</VIEWNAME>
+     <TABNAME>ZCL_GRP_CLASS_KL</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>ZCL_GRP_CLASS_KL</FORTABNAME>
+    </DD26V>
+   </DD26V_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWFIELD>MANDT</VIEWFIELD>
+     <TABNAME>ZCL_GRP_CLASS_KL</TABNAME>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>NUTZER_GRUPPE</VIEWFIELD>
+     <TABNAME>ZCL_GRP_CLASS_KL</TABNAME>
+     <FIELDNAME>NUTZER_GRUPPE</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>STATUS</VIEWFIELD>
+     <TABNAME>ZCL_GRP_CLASS_KL</TABNAME>
+     <FIELDNAME>STATUS</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <VALEXI>X</VALEXI>
+    </DD27P>
+   </DD27P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/CIDEON/SMARTFORM_CS11</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>TDSFNAME</DOMNAME>
+    <HEADLEN>35</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>35</SCRLEN3>
+    <DDTEXT>SmartForms Formular für Transaktion CS11</DDTEXT>
+    <REPTEXT>SmartForms für Transaktion CS11 BOM</REPTEXT>
+    <SCRTEXT_S>Smartf.C11</SCRTEXT_S>
+    <SCRTEXT_M>SmartForms CS11</SCRTEXT_M>
+    <SCRTEXT_L>SmartForms für Transaktion CS11 BOM</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

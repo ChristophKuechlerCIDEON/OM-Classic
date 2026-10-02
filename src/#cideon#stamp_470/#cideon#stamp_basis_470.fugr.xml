@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>FG für Stempelfunktionalität 470 abhäng</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/CIDEON/LSTAMP_BASIS_470TOP</SOBJ_NAME>
+    <SOBJ_NAME>/CIDEON/SAPLSTAMP_BASIS_470</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/CIDEON/STAMP_CALL_STMP_TOOL_R</FUNCNAME>
+     <SHORT_TEXT>ruft Stempeltool remote auf</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_FILENAME</PARAMETER>
+       <TYP>FILEP</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_FILENAME_ZIEL</PARAMETER>
+       <TYP>FILEP</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_FILENAME_STEMPEL</PARAMETER>
+       <TYP>FILEP</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_STAMP_PROGRAM</PARAMETER>
+       <TYP>FILEP</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_START_VERZEICHNIS</PARAMETER>
+       <TYP>DSVASDOCID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_ARBEITS_VERZEICHNIS</PARAMETER>
+       <TYP>DSVASDOCID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_KONVERTER</PARAMETER>
+       <TYP>CHAR10</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_STAMP_PARAMETER</PARAMETER>
+       <TYP>ZCL_PWERT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_STAMP_RFC_DESTINATION</PARAMETER>
+       <TYP>RFCDES-RFCDEST</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_STAMP_FTP_DESTINATION</PARAMETER>
+       <TYP>RFCDES-RFCDEST</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_STAMP_FTP_USER</PARAMETER>
+       <TYP>/CIDEON/FTP_USER</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_STAMP_FTP_PASSWD</PARAMETER>
+       <TYP>/CIDEON/FTP_PASSWD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_STAMP_FTP_VERZEICHNIS</PARAMETER>
+       <TYP>FILEP</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_STAMP_DELAY</PARAMETER>
+       <TYP>I</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_FILENAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Original zu Dokument</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_FILENAME_ZIEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Original zu Dokument</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_FILENAME_STEMPEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Original zu Dokument</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_STAMP_PROGRAM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Original zu Dokument</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_START_VERZEICHNIS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>DSVAS: Dokument-ID</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ARBEITS_VERZEICHNIS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>DSVAS: Dokument-ID</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_KONVERTER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Characterfeld der Länge 10</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_STAMP_PARAMETER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Werte für einen Parameter in Konfigurationstabelle</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_STAMP_RFC_DESTINATION</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>logische Destination (Wird bei Funktionsaufruf angegeben)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_STAMP_FTP_DESTINATION</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>logische Destination (Wird bei Funktionsaufruf angegeben)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_STAMP_FTP_USER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>FTP Nutzer</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_STAMP_FTP_PASSWD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>FTP Paßwort</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_STAMP_FTP_VERZEICHNIS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Original zu Dokument</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_STAMP_DELAY</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

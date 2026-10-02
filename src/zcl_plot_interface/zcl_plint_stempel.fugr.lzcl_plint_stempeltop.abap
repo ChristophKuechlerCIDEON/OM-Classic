@@ -1,0 +1,75 @@
+FUNCTION-POOL zcl_plint_stempel.            "MESSAGE-ID ..
+
+*TYPES
+TYPES:
+  BEGIN OF t_defaultdata,
+*    default_nutzer TYPE sy-uname,
+*    search_alv_var(30),
+*    plot_alv_var(30),
+*    default_kopien TYPE i,
+*    default_prio TYPE zcl_s_plotlist-prio,
+*    default_verteiler TYPE zcl_name_verteiler,
+*    default_voreinstellung TYPE zcl_voreinstell-voreinstellung,
+*    merkmal_format TYPE atinn,
+*    down_path TYPE rlgrap-filename,
+*    ppl_down_path TYPE rlgrap-filename,
+*    view_down_path TYPE rlgrap-filename,
+*    clf_down_path TYPE rlgrap-filename,
+*    knz_show_html_help(1),
+*    html_help_path TYPE rlgrap-filename,
+*    knz_user_dummy(1) ,
+*    user_dummy_kunnr TYPE kunnr,
+*    default_satzanzahl TYPE zcl_satzanzahl,
+*    default_deckblatt	TYPE zcl_deckblatt,
+*    default_endeblatt	TYPE zcl_endeblatt,
+*    default_fehlblatt      TYPE zcl_fehlblatt,
+*    default_knz_inhalt_vz TYPE zcl_knz_inhalt_vz,
+*    default_inhaltsblatt	TYPE zcl_inhaltsblatt,
+*    delete_tmp_search(1),
+*    read_tmp_search(1),
+*    freigabe_status TYPE draw-dokst,
+*    sperr_status TYPE draw-dokst,
+*    excp_led TYPE char1,
+*    strategy(1),
+*    knz_use_post(1),
+*    knz_auto_process(1),
+*    searchlist_file TYPE filep,
+*    plotlist_file TYPE filep,
+*    delete_item(1),
+*    delete_status(1),
+*    knz_format_checking(1),
+*    knz_use_merkmal_format(1),
+*    knz_use_multipage(1),
+*    knz_ask_before_leave(1),
+*    knz_ask_before_delete(1),
+*    knz_get_material(1),
+*    knz_use_kostl(1),
+*    vorgabe(50),
+    mat_status_exc(50),
+    trennzeichen(1),
+    mat_status_icon(4),
+*    fehlblatt_icon(4),
+*    knz_down_files_del,
+*    knz_use_checked_in,
+*    spez_dok_icon(4),
+*    spez_dok_icon_stuecklist(4),
+*    spez_dok_icon_folge(4),
+*    spez_dok_icon_vorgang(4),
+*    knz_use_new_clf_type(1),
+*    user_group_wsapp_selection TYPE zcl_usr_grp,
+*    speicher_ort_fb_liste TYPE filep,
+*    knz_static_fb_liste(1),
+*    trennzeichen_fb_liste(1),
+*    knz_dialog_fb_liste(1),
+*    knz_anmeldung_am_server(1),
+*    anmeldestring_server TYPE zcl_pwert,
+  END OF t_defaultdata.
+
+*ITAB
+*WA
+DATA: wa_sprache LIKE zcl_prog_info_pa-langu.
+*NORMAL
+
+DATA: ok_code LIKE sy-ucomm.
+
+*include ZCL_VARIABLEN_PLOT.

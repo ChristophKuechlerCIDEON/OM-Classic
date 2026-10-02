@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Tools für das Plotten eines Fert.auftrag</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZCL_PLOT_FERTIGUNG_TOOLTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZCL_PLOT_FERTIGUNG_TOOL</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_CL_INT_WRITE_PLOT_PSB</FUNCNAME>
+     <SHORT_TEXT>schreibt FA Einträge zum Plotten / Interface</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>F_AUT_PROCESS</PARAMETER>
+       <DEFAULT>&apos;X&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>I_ITAB_ITEMS</PARAMETER>
+       <DBSTRUCT>ZCL_PDM_OBJECTS_FA_INT</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>F_AUT_PROCESS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Einstelliges Kennzeichen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ITAB_ITEMS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Exportierte Objekte aus dem Produktstrukturbrowser</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_CL_INT_WRITE_PLOT_PSB_NO_STR</FUNCNAME>
+     <SHORT_TEXT>schreibt FA Einträge zum Plotten / Interface kein Start des Interfaces</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>F_AUT_PROCESS</PARAMETER>
+       <DEFAULT>&apos;X&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>I_ITAB_ITEMS</PARAMETER>
+       <DBSTRUCT>ZCL_PDM_OBJECTS_FA_INT</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>F_AUT_PROCESS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Einstelliges Kennzeichen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ITAB_ITEMS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Exportierte Objekte aus dem Produktstrukturbrowser</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_CL_INT_WRITE_PLOT_PSB_SPOOL</FUNCNAME>
+     <SHORT_TEXT>schreibt FA Einträge zum Plotten / Interface</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>F_AUT_PROCESS</PARAMETER>
+       <DEFAULT>&apos;X&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>I_ITAB_ITEMS</PARAMETER>
+       <DBSTRUCT>ZCL_PDM_OBJECTS_FA_INT</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>F_AUT_PROCESS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Einstelliges Kennzeichen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_ITAB_ITEMS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Exportierte Objekte aus dem Produktstrukturbrowser</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_CL_PLOT_AUFK_BILLOFMAT_ALL</FUNCNAME>
+     <SHORT_TEXT>vollständige Stücklistenauflösung für ein Material</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_MATNR</PARAMETER>
+       <TYP>MATNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_STLAN</PARAMETER>
+       <DEFAULT>&apos; &apos;</DEFAULT>
+       <TYP>STLAN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_STLAL</PARAMETER>
+       <DEFAULT>&apos; &apos;</DEFAULT>
+       <TYP>STLAL</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_STUFE</PARAMETER>
+       <TYP>STPOX-STUFE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_CAPID</PARAMETER>
+       <TYP>TC04-CAPID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>O_ITAB_MATNR</PARAMETER>
+       <DBSTRUCT>MARA</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>O_ITAB_DOK</PARAMETER>
+       <DBSTRUCT>STPOX</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>O_ITAB_TXT</PARAMETER>
+       <DBSTRUCT>STPOX</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>O_ITAB_STPOX</PARAMETER>
+       <DBSTRUCT>ZCL_SL_TMP</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Materialnummer</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_STLAN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stücklistenverwendung</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_STLAL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stücklistenalternative</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_STUFE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stufe (für mehrstufige Stücklistenauflösungen)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_CAPID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anwendung</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>O_ITAB_MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Allgemeine Materialdaten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>O_ITAB_DOK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stücklistenposition (erweitert fuer Listanzeigen)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>O_ITAB_TXT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Stücklistenposition (erweitert fuer Listanzeigen)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>O_ITAB_STPOX</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>temporäre Tabelle zu Übergabe von Daten aus dem Fertigungs</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

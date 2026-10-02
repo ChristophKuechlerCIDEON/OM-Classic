@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/CIDEON/PLOT_RFC</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Nachrichten RFC</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_RFC</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_RFC</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Destination &amp; nicht erreichbar &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_RFC</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>TIME out</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_RFC</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Datei &amp; &amp; &amp; &amp; verarbeitet</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_RFC</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>DIS &amp; &amp; &amp; &amp; angelegt</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_RFC</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Fehler bei &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/PLOT_RFC</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Verarbeitung beendet &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

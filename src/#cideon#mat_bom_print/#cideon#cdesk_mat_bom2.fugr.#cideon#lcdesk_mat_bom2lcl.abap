@@ -1,0 +1,37 @@
+*----------------------------------------------------------------------*
+*   INCLUDE /CIDEON/LCDESK_MAT_BOM2LCL                                 *
+*----------------------------------------------------------------------*
+*----------------------------------------------------------------------*
+*   INCLUDE /CIDEON/EXPO_CONFPARAM_LCL                              *
+*----------------------------------------------------------------------*
+
+CLASS lcl_event_handler DEFINITION.
+  PUBLIC SECTION.
+    CLASS-METHODS: on_double_click FOR EVENT double_click
+                                   OF cl_gui_alv_grid
+                   IMPORTING e_row.
+
+ENDCLASS.
+
+*---------------------------------------------------------------------*
+*       CLASS lcl_event_handler IMPLEMENTATION
+*---------------------------------------------------------------------*
+*       ........                                                      *
+*---------------------------------------------------------------------*
+CLASS lcl_event_handler IMPLEMENTATION.
+
+  METHOD: on_double_click.
+
+    PERFORM popup_to_confirm.
+    IF answer = 'J'.
+      CLEAR wa_save_neccessary.
+      READ TABLE <mat_bom> ASSIGNING <wa> INDEX e_row-index.
+      index = e_row-index.
+
+      CALL METHOD cl_gui_cfw=>set_new_ok_code
+        EXPORTING
+          new_code = 'DBLCLICK'.
+    ENDIF.
+  ENDMETHOD.
+
+ENDCLASS.

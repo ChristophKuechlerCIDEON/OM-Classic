@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Funktionsgruppe für Aktualisierungsnachv</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/CIDEON/LUPDATE_TRACKINGTOP</SOBJ_NAME>
+    <SOBJ_NAME>/CIDEON/SAPLUPDATE_TRACKING</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/CIDEON/MAKE_DUNNING</FUNCNAME>
+     <SHORT_TEXT>Mahnung erstellen für Dokumentenlieferung</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>ID_PLOTJOB_32</PARAMETER>
+       <TYP>/CIDEON/ID_PLOTJOB_GUID32</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ID_PLOTJOB_32</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ID des Plotjobs (GUID 32)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>L</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>DU1</KEY>
+       <ENTRY>1. Mahnung zu</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DU2</KEY>
+       <ENTRY>2. Mahnung zu</ENTRY>
+       <LENGTH>13</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>DU3</KEY>
+       <ENTRY>wiederholte Mahnung (2 + n) zu</ENTRY>
+       <LENGTH>30</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

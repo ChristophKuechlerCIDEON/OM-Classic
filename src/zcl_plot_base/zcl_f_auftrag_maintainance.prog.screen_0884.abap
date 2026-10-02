@@ -1,0 +1,12 @@
+
+PROCESS BEFORE OUTPUT.
+
+  MODULE status_0884.
+  CALL SUBSCREEN aufk INCLUDING sy-repid '0885'.
+
+*
+PROCESS AFTER INPUT.
+  CALL SUBSCREEN aufk.
+  MODULE user_command_0884.
+
+

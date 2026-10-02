@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/CIDEON/IF_EX_PLS_MAIN01</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>BAdI-Interface /CIDEON/IF_EX_PLS_MAIN01</DESCRIPT>
+    <CATEGORY>01</CATEGORY>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>AFTER_BOM_AQQUIRED</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>nach BOM Recherche</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AFTER_BO_AQQURIRED</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>nach BO Recherche</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>AFTER_DOC_AQQUIRED</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>nach Dokumentenrecherche</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>AFTER_BOM_AQQUIRED</CMPNAME>
+     <SCONAME>LO_PLOT_BO</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>An den Plotdienst angeschlossenes Business Objekt</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>AFTER_BOM_AQQUIRED</CMPNAME>
+     <SCONAME>LT_BOM</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>API_Struktur Material-Stückliste: Alle Felder</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>AFTER_BO_AQQURIRED</CMPNAME>
+     <SCONAME>DOCUMENTS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Objekte aus dem Produktstruktur Browser</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>AFTER_BO_AQQURIRED</CMPNAME>
+     <SCONAME>LO_PLOT_BO</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>An den Plotdienst angeschlossenes Business Objekt</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>AFTER_DOC_AQQUIRED</CMPNAME>
+     <SCONAME>LO_DLT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Schnittstelle f. Dokumentverknüpfungsarten</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>AFTER_DOC_AQQUIRED</CMPNAME>
+     <SCONAME>LO_PLOT_BO</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>An den Plotdienst angeschlossenes Business Objekt</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>AFTER_DOC_AQQUIRED</CMPNAME>
+     <SCONAME>LT_TMP_DOCDATA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Objekte aus dem Produktstruktur Browser</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOBJ>
+    <OBJCT>ZCL_PLOTJN</OBJCT>
+    <FIEL1>ZCL_TA</FIEL1>
+    <FIEL2>ACTVT</FIEL2>
+    <OCLSS>ZPLO</OCLSS>
+   </TOBJ>
+   <TOBJT>
+    <LANGU>D</LANGU>
+    <OBJECT>ZCL_PLOTJN</OBJECT>
+    <TTEXT>Berechtigungsobjekt für Jobname</TTEXT>
+   </TOBJT>
+   <TOBJVORFLG>
+    <OBJCT>ZCL_PLOTJN</OBJCT>
+   </TOBJVORFLG>
+   <TACTZ>
+    <TACTZ>
+     <BROBJ>ZCL_PLOTJN</BROBJ>
+     <ACTVT>02</ACTVT>
+    </TACTZ>
+    <TACTZ>
+     <BROBJ>ZCL_PLOTJN</BROBJ>
+     <ACTVT>03</ACTVT>
+    </TACTZ>
+   </TACTZ>
+  </asx:values>
+ </asx:abap>
+</abapGit>

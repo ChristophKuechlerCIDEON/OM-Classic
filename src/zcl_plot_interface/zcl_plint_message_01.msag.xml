@@ -1,0 +1,1381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Bitte nur eine Zeile auswählen ! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Sie sollten mindestens eine Zeile selektieren ! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Funktionalität leider noch nicht implementiert ! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Wählen sie bitte eine Zeile aus an welcher eingefügt werden soll! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Keine Werte zum Einfügen vorhanden ! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Bitte Appl. Log. ansehen! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>keine Dokumente für Eintrag in Suchliste gefunden! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>keine Dokumente gefunden! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>keine Dummykundennummer gepflegt bei gewünschter Dummyverwendung! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Dummykundennummer &amp; nicht vorhanden! &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Kein gepflegtes Formatmerkmal gefunden für Dokument &amp; &amp; &amp; &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Sie haben keine Berechtigung für diese Funktion! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Verschiebung nur für zusammenhängenden Block gestattet! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Konnte Block nicht verschieben ! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Keine Zeichnungen für DIS &amp; &amp; &amp; &amp; gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Konnte Eintrag in Baumstruktur nicht eintragen, daß schon vorhanden! &amp;&amp;&amp;&amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>dies sollte nie passieren!  gleicher Key auf Fileebene &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Problem beim Anlegen eines Knotens/Blattes!° &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Plot Tree / Suchproblem ! Knoten &amp; Suche &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Konnte in Baumstruktur, &amp; mit &amp; nicht an der Stelle &amp; eintragen! &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Knoten nicht  gefunden! Knoten &amp;  &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>Problem mit EAI Viewer! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Kein Eintrag für zu startendes Programm ! Benutze EAI-Viewer ! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Konnte Datei &amp; nicht finden! &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Fehler bei Anzeige des Dokumentes  &amp; ! &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Eingabe muß im Intervall von &amp; bis &amp; erfolgen ! &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Dokumente besitzen unterschiedliche Prioritäten! Bitte ändern! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Probleme beim Auschecken! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Konnte Datei &amp; nicht löschen! &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>Keine Kostenstelle für Nutzer &amp; gefunden! &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>Kein Eintrag in Tabelle &amp;  für Schlüssel &amp; &amp; &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>Konnte nicht speichern! Tabelle &amp;  für Schlüssel &amp; &amp; &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>alle Felder müssen einenn Wert haben! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Einstellungen wurden aufgefrischt! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>Fehler beim Lesen der Dateiinformationen für Datei &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>Konnte Eintrag nicht löschen! Tabelle &amp;  für Schlüssel &amp; &amp; &amp; !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>080</MSGNR>
+     <TEXT>FB &amp; aus Tabelle &amp; nicht vorhanden! &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>081</MSGNR>
+     <TEXT>FB &amp; aus Tabelle &amp; nicht aktiv vorhanden! &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>090</MSGNR>
+     <TEXT>Für Filter &amp; = &amp; sind keine relevanten Einträge vorhanden! &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>091</MSGNR>
+     <TEXT>&amp; Einträge für Filter &amp; = &amp; selektiert! &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>Plotten der Jobs gestartet! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;  weitergeleitet!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>Plot: PreProcessor: &amp; Nutzer: &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>Anz. Dateien &amp; &gt; Parameter DMS_MAX_TMP_FILES &amp;. unbed. Langtext beachten!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>Senden abgebrochen! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>120</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>150</MSGNR>
+     <TEXT>Probleme beim Einfügen! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>151</MSGNR>
+     <TEXT>keine Einträge in Queue! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>163</MSGNR>
+     <TEXT>Funktion &apos;&amp;&apos; bei Netzadresse &quot;DEFAULT&quot; nicht möglich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>164</MSGNR>
+     <TEXT>Probleme beim Holen des WorkDirs! Fehler : &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>200</MSGNR>
+     <TEXT>Dokument nicht gefunden! WICHTIG : Langtext ansehen! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>201</MSGNR>
+     <TEXT>Dokument nicht gefunden! Auflistung erfolgt &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>250</MSGNR>
+     <TEXT>Konnte Dokument nicht stempeln -&gt; kein Anzeige möglich. &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>300</MSGNR>
+     <TEXT>Anzeigefehler &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>350</MSGNR>
+     <TEXT>Es werden nur abgelegte Originale benutzt. &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>996</MSGNR>
+     <TEXT>Ihre Lizenz ist nicht für Ihre Nutzeranzahl gültig! Lizenz: &amp; Nutzer: &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>997</MSGNR>
+     <TEXT>Ihre Lizenz lief am &amp; ab! &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>998</MSGNR>
+     <TEXT>Ihre Lizenz läuft am &amp; ab! &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_PLINT_MESSAGE_01</ARBGB>
+     <MSGNR>999</MSGNR>
+     <TEXT>Test</TEXT>
+    </T100>
+   </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZCL_PLINT_MESSAGE_01000</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00002</TXTLINES>
+      <SELFDEF>3</SELFDEF>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCL_PLINT_MESSAGE_01000</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZCL_PLINT_MESSAGE_01004</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00004</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCL_PLINT_MESSAGE_01004</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie haben versucht Dokumente in die Plotliste einzufügen. Leider sind</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>im keine entsprechenden Dokumente im Zwischenspeicher vorhanden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Kopieren oder Schneiden sie die Dokumente, welche sie einfügen wollen,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>nochmal aus. Und wiederholen sie Ihr Vorgehen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZCL_PLINT_MESSAGE_01004</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCL_PLINT_MESSAGE_01004</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You&apos;ve tried to insert documents into plotlist. Unfortunately there are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>no documents in the queue!</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Try to copy or cut youre documente again. Repeat this process.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZCL_PLINT_MESSAGE_01010</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00005</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCL_PLINT_MESSAGE_01010</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es konnten keine Originaldokumente zu den ausgewählen Dokumenten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(Dokumenteninforsätze) von der unterlegten Verarbeitung gefunden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Möglicherweise korrespondieren die vorhandenen Originaldokumente nicht</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>mit den voreingestellten Filtern für anzuzeigende Originaldokumente.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZCL_PLINT_MESSAGE_01010</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00005</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCL_PLINT_MESSAGE_01010</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es konnten keine Originaldokumente zu den ausgewählen Dokumenten</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(Dokumenteninforsätze) von der unterlegten Verarbeitung gefunden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Möglicherweise korrespondieren die vorhandenen Originaldokumente nicht</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>mit den voreingestellten Filtern für anzuzeigende Originaldokumente.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UI</TDFORMAT>
+       <TDLINE>&amp;sys_admin&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UI</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZCL_PLINT_MESSAGE_01011</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00001</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCL_PLINT_MESSAGE_01011</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es konnten zu Ihrer Auswahl leider keine Dokumente gefunden werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZCL_PLINT_MESSAGE_01040</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCL_PLINT_MESSAGE_01040</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es wurde kein zusammenhängender Block markiert!</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Zusammenhängenden Block markieren und dann die Funktion erneut</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ausführen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZCL_PLINT_MESSAGE_01060</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCL_PLINT_MESSAGE_01060</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es wurde kein nutzerspezifischer Eintrag für ein zur  Ansicht des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Dokumentes zu startendes Programm gefunden. Aus diesem Grund wurde die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Voreinstellung benutzt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZCL_PLINT_MESSAGE_01064</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00004</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCL_PLINT_MESSAGE_01064</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es wurden Dokumenten mit unterschiedlicher Priorität zu einem Plotjob</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zusammengefaßt. Ein Plotjobs darf aber nur eine Priorität für alle in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ihm enthaltenen Dokumente besitzen!</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ändern sie die Prioritäten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZCL_PLINT_MESSAGE_01066</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCL_PLINT_MESSAGE_01066</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es konnte die zum Ansehen erzeugte temporäre Datei nicht gelöscht</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Bitte stellen Sie sicher, daß die entsprechende Datei gelöscht wird.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZCL_PLINT_MESSAGE_01067</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00010</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCL_PLINT_MESSAGE_01067</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es wurde für den Nutzer &amp;SYST-MSGV1&amp; keine Kostenstelle gefunden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Überprüfen sie ob der Benutzer eine Personalnummer besitzt. -&gt; PA30  .</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Es muß einen Eintrag im HR für den Benutzer geben.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Überprüfen Sie, ob dieser Personalnummer der SAP-Benutzername</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zugeordnet ist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Transaktion PA30 - Infoty 0105 .</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Überprüfen Sie desweiteren, ob dieser Personalnummer eine Kostenstelle</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zugeordnet ist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Transaktion PA30 - organisatorische Zuordnungen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Pflegen Sie die Zuordnungen entsprechend!</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZCL_PLINT_MESSAGE_01110</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00007</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCL_PLINT_MESSAGE_01110</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In Ihrem System ist der Parameter DMS_MAX_TMP_FIILES auf einen Wert</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gesetzt, welcher kleiner als die Anzahl der von Ihnen auszugebenden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Einträge ist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Verständigen Sie Ihre SAP Basis und lassen Sie den Parameter erweitern</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>oder ändern Sie Ihre Selektion.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZH&gt;Falls Sie dies nicht tun, so kann es dazu kommen, daß nicht alle</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Dateien ausgeben werden können, bzw. der Ausgabejob fehlerhaft ist.&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZCL_PLINT_MESSAGE_01110</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00006</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCL_PLINT_MESSAGE_01110</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Parameter DMS_MAX_TMP_FILES contains a value less than the count of your</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>eintries inside the job</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Call your SAP base administration to change this parameter for your</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>login and other used logins.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If you don&apos;t do this, than it could be that there are error inside your</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>job.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZCL_PLINT_MESSAGE_01200</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0007</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00022</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCL_PLINT_MESSAGE_01200</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00007</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es wurden für ausgewählte Dokumenteninfosätze keine Originaldokumente</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gefunden. Dies kann verschiedene Ursachen haben:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>1. Es existieren für den gewählten Dokumenteninfosatz keine (noch</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>keine) Originaldokumente.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>2. Es existieren zwar Originaldokumente, aber durch eine Vorauswahl der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Workstationapplikationstypen wurden die Originaldokumente nicht</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>selektiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die angezeigten Farbsymbole in der Liste repräsentieren verfügbare</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zustände :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>,,- grün</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>,,,,Originaldokumente verfügbar und slektiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>,,- gelb</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>,,,,Originaldokumente verfügbar aber nicht selektiert (siehe Vorauswahl</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der Workstationapplikationstypen)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>,,- rot</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>,,,,keine Originaldokumente für Dokumenteninfosatz verfügbar</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wählen Sie aus der angezeigten Listen die Dokumente aus für welche eine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>erneute Suche durchgeführt werden soll. Und bestätigen Sie die Auswahl</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>mit der Taste &quot;OK&quot;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Mit einem Doppelklick auf die Listenzeilen bzw. durch Druck auf den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Button &quot;Anzeigen&quot; können Sie sich den zugehörigen Dokumenteninfosatz</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ansehen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZCL_PLINT_MESSAGE_01201</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00023</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZCL_PLINT_MESSAGE_01201</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Zu einem oder mehreren Dokumentinfosätzen wurden keine Originaldateien</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gefunden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die betroffenen Dokumentinfosätzte werden aufgelistet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das &quot;Nichtfinden&quot; von Originaldateien kann verschiedene Ursachen haben:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>1. Es existieren für den gewählten Dokumenteninfosatz keine (noch</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>keine) Originaldokumente.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>2. Es existieren zwar Originaldokumente, aber durch eine Vorauswahl der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Workstationapplikationstypen wurden die Originaldokumente nicht</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>selektiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die angezeigten Farbsymbole in der Liste repräsentieren verfügbare</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zustände :</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>,,- grün</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>,,,,Originaldokumente verfügbar und slektiert.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>,,- gelb</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>,,,,Originaldokumente verfügbar aber nicht selektiert (siehe Vorauswahl</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der Workstationapplikationstypen)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>,,- rot</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>,,,,keine Originaldokumente für Dokumenteninfosatz verfügbar</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sichern Sie ab, daß, falls notwendig, die entsprechenden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Originaldateien nachgepflegt werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Mit einem Doppelklick auf die Listenzeilen bzw. durch Druck auf den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Button &quot;Anzeigen&quot; können Sie sich den zugehörigen Dokumenteninfosatz</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ansehen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

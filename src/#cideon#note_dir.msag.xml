@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/CIDEON/NOTE_DIR</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Notiz DIs</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/NOTE_DIR</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Fehler beim Ermitteln des SapWorkDir!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/NOTE_DIR</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Fehler beim Anlegen des Dokumentes!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/NOTE_DIR</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Fehler beim Öffnen der Office-Integration!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/NOTE_DIR</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Fehler beim Ändern des Dokuments!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/NOTE_DIR</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Dokumenteninfosatz &amp; &amp; &amp; &amp; erfolgreich angelegt !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/NOTE_DIR</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Workstationapplikation zur Dokumentart &amp; nicht gepflegt !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/CIDEON/NOTE_DIR</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Dokumentart &amp; nicht gepflegt !</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

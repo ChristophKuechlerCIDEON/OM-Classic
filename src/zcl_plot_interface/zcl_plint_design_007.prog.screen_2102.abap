@@ -1,0 +1,26 @@
+
+PROCESS BEFORE OUTPUT.
+
+  MODULE status_0102.
+  CALL SUBSCREEN tab1_pl_ref1 INCLUDING sy-repid '0120'.
+  CALL SUBSCREEN tab2_pl_ref1 INCLUDING sy-repid '0121'.
+  CALL SUBSCREEN tab3_pl_ref1 INCLUDING sy-repid '0122'.
+  CALL SUBSCREEN tab4_pl_ref1 INCLUDING sy-repid '0123'.
+  CALL SUBSCREEN tab5_pl_ref1 INCLUDING sy-repid '0124'.
+  CALL SUBSCREEN tab6_pl_ref1 INCLUDING sy-repid '0125'.
+  CALL SUBSCREEN tab7_pl_ref1 INCLUDING sy-repid '0126'.
+  CALL SUBSCREEN tab8_pl_ref1 INCLUDING sy-repid '0127'.
+
+*
+PROCESS AFTER INPUT.
+
+  CALL SUBSCREEN tab1_pl_ref1.
+  CALL SUBSCREEN tab2_pl_ref1.
+  CALL SUBSCREEN tab3_pl_ref1.
+  CALL SUBSCREEN tab4_pl_ref1.
+  CALL SUBSCREEN tab5_pl_ref1.
+  CALL SUBSCREEN tab6_pl_ref1.
+  CALL SUBSCREEN tab7_pl_ref1.
+  CALL SUBSCREEN tab8_pl_ref1.
+
+* MODULE USER_COMMAND_0102.

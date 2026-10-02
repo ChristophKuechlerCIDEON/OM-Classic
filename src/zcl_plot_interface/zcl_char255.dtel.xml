@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZCL_CHAR255</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>ZCL_CHAR255</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>255 Zeichen großes Charakterfeld</DDTEXT>
+    <REPTEXT>Wert</REPTEXT>
+    <SCRTEXT_S>Wert</SCRTEXT_S>
+    <SCRTEXT_M>Wert</SCRTEXT_M>
+    <SCRTEXT_L>Wert</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>255 char field</DDTEXT>
+     <REPTEXT>Value</REPTEXT>
+     <SCRTEXT_S>Value</SCRTEXT_S>
+     <SCRTEXT_M>Value</SCRTEXT_M>
+     <SCRTEXT_L>Value</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>255 char field</DDTEXT>
+     <REPTEXT>Value</REPTEXT>
+     <SCRTEXT_S>Value</SCRTEXT_S>
+     <SCRTEXT_M>Value</SCRTEXT_M>
+     <SCRTEXT_L>Value</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>255 char field</DDTEXT>
+     <REPTEXT>Value</REPTEXT>
+     <SCRTEXT_S>Value</SCRTEXT_S>
+     <SCRTEXT_M>Value</SCRTEXT_M>
+     <SCRTEXT_L>Value</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

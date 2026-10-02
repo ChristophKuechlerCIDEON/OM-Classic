@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Aufbauende Konvertierungen</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/CIDEON/LCSS_NEXT_CONVTOP</SOBJ_NAME>
+    <SOBJ_NAME>/CIDEON/SAPLCSS_NEXT_CONV</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/CIDEON/CSS_GET_NEXT_CONV</FUNCNAME>
+     <SHORT_TEXT>holt nächste(n) Konvertierungen</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_DOCUMENT_KEY</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CONV_S_DOCUMENT_KEY</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_KPRO_USE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>TDWA-KPRO_USE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_CONV_REQUESTED</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CONV_S_REQUESTED</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_CONVERT_SPEC</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CONVERT_SPEC</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_CONVERTER</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CONVERTER</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_CONV_PATH_AND_MATRIX</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CONV_PATH_AND_MATRIX</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_CONV_REQ_DATA</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CONV_S_REQ_DATA</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_DOC_FILES</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CVAPI_TBL_DOC_FILES</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_DOC_FILE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CVAPI_DOC_FILE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>KEIN_NACHFOLGER</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_DOCUMENT_KEY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Schlüsselfelder eines Dokumentes</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_KPRO_USE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Dokumentenablage via Knowledge Provider</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_CONV_REQUESTED</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Informationen über durchzuführende Konvertierung</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_CONVERT_SPEC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Detailierte Informationen über spezielle Konvertierungen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_CONVERTER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Informationen über den Zugriff auf installierte Konverter</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_CONV_PATH_AND_MATRIX</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>IDs, Dateinamen und DMU Matrizen (eine Matrix je Zeile)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_CONV_REQ_DATA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Dokumente und IDs der Transformationsmatrizen</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_DOC_FILES</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>DVS - Originale</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_DOC_FILE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>DVS: Originale eines Dokumentes</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>KEIN_NACHFOLGER</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>keine Nachfolgekonvertierung</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

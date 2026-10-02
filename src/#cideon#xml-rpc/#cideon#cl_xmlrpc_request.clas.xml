@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/CIDEON/CL_XMLRPC_REQUEST</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>XML-RPC Methodenaufruf</DESCRIPT>
+    <STATE>1</STATE>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_PARAMETER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Fügt einen Parameter hinzu</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Initialisierung</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_PARAM_ITERATOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erzeugt einen Iterator für die Parameter</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GETMETHODNAME</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Liefert den Methodennamen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>M_METHOD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Methodenname</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>M_PARAMETERS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Array von Parametern</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_PARAMETER</CMPNAME>
+     <SCONAME>TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Typ aus /CIDEON/IF_XMLRPC_TYPES</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_PARAMETER</CMPNAME>
+     <SCONAME>VALUE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Parameterwert</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>METHOD</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Methodenname</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>PARAMS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Parameter (optional)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CREATE_PARAM_ITERATOR</CMPNAME>
+     <SCONAME>ITERATOR</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Iterator für die Parameter</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GETMETHODNAME</CMPNAME>
+     <SCONAME>METHODNAME</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Methodenname</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

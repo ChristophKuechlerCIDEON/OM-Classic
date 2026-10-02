@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCL_KONV</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Konvertierungen</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_KONV</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Fehler bei Verzeichnisauswahl! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_KONV</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Problem beim Listen des Verzeichnisses ! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_KONV</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>keine Unterverzeichnisse gefunden! &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_KONV</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>keine Dateien gefunden! in Verzeichnis &amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZCL_KONV</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>konnte Datei &amp; nicht laden &amp; &amp; &amp; !</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
